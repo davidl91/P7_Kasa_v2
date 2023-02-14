@@ -1,0 +1,38 @@
+.cards {
+  padding: 25px;
+  background: #f7f7f7;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.cards a {
+  text-decoration: none;
+}
+.cards a:hover {
+  scale: 1.05;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+  }
+  .cards a:hover {
+    scale: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    padding: 0;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

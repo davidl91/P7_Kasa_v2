@@ -1,0 +1,15 @@
+.collapses {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collapses > div {
+  width: 85%;
+}
+
+@media screen and (max-width: 1050px) {
+  .collapses > div {
+    width: 100%;
+  }
+}
